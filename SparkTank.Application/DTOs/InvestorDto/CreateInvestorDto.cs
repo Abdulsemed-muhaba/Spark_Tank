@@ -11,8 +11,7 @@ namespace SparkTank.Application.DTOs.InvestorDto
         public string Full_Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string Company_Name { get; set; }
-        public string Industry { get; set; }
+        public List<string> Industry { get; set; }
         public string Location { get; set; }
     }
 }

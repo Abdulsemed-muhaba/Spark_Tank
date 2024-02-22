@@ -7,10 +7,10 @@ namespace SparkTank.Application.DTOs.InvestorDto
 {
     public class GetInvestorsDto
     {
-        string Full_Name { get; set; }
-        string Email { get; set; }
-        string Company_Name { get; set; }
-        string Industry { get; set; }
-        string Location { get; set; }
+        public string Full_Name { get; set; }
+        public string Email { get; set; }
+        public string Company_Name { get; set; }
+        public string Industry { get; set; }
+        public string Location { get; set; }
     }
 }
