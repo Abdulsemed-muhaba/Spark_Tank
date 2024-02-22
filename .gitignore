@@ -1,0 +1,12 @@
+SparkTank.API/bin
+SparkTank.API/obj
+SparkTank.Application/bin
+SparkTank.Application/obj
+SparkTank.Domain/bin
+SparkTank.Domain/obj
+SparkTank.Infrastructure/bin
+SparkTank.Infrastructure/obj
+SparkTank.Persistence/bin
+SparkTank.Persistence/obj
+.vs
+Profile.http
