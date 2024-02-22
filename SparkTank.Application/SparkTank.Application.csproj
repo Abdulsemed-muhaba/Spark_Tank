@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SparkTank.Domain\SparkTank.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
