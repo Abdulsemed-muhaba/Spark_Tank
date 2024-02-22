@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SparkTank.Application.DTOs.InvestorDto
 {
-    internal class CreateInvestorDto
+    public class CreateInvestorDto
     {
+        public string Full_Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Company_Name { get; set; }
+        public string Industry { get; set; }
+        public string Location { get; set; }
     }
 }
